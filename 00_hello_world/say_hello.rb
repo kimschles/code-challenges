@@ -3,6 +3,3 @@ def say_hello()
 end 
 
 puts say_hello()
-
-
-
