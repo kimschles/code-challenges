@@ -5,6 +5,7 @@ const buildTriangle = num => {
     row += '*';
     console.log(row);
   }
+
 };
 
 buildTriangle(7);
