@@ -1,15 +1,17 @@
 const fizzBuzz = () => {
-    for (let i = 0; i <= 100; i++) 
+    resultArray = [];
+    for (let i = 1; i <= 100; i++) 
         if (i % 3 === 0 && i % 5 === 0) {
-            console.log('fizzbuzz')
+            resultArray.push("fizzbuzz");
         }
     else if (i % 3 === 0) {
-        console.log('fizz')
+        resultArray.push("fizz");
     } else if (i % 5 === 0) {
-        console.log('buzz')
+        resultArray.push("buzz");
     } else {
-        console.log(i)
+        resultArray.push(i);
     }
-}
+    return resultArray;
+};
 
-fizzBuzz()
+console.log(fizzBuzz());
