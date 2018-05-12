@@ -1,4 +1,4 @@
-# Fizz Buzz
+# Fibonacci Sequence
 
 ## Challenge
 
