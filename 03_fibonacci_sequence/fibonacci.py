@@ -4,5 +4,4 @@ def findFibonacci(num):
         x, y = y, x + y
     return x
 
-
 print(findFibonacci(14))
