@@ -2,7 +2,7 @@
 
 ## Challenge
 
-Write a function to return the _n_ element in Fibonacci sequence.
+Write a function to return a number in the Fibonacci sequence.
 
 In the Fibonacci Sequence, [the next number is found by adding up the two numbers before it](https://www.mathsisfun.com/numbers/fibonacci-sequence.html).
 
@@ -19,4 +19,4 @@ Sequence:
 
 `3 => 2`
 `6 => 8`
-`14 =>377`
+`14 => 377`
