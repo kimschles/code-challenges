@@ -1,13 +1,14 @@
 #!/bin/bash 
 
-echo 'How many rows are in the triangle?'
-read NUMBER
+echo "How many rows are in the traingle?"
+read NUMBER 
 
 COUNTER=0
+ROW="*"
+
 while [ $COUNTER -lt $NUMBER ]; do 
-    echo The counter is $COUNTER
-    let COUNTER=COUNTER+1
-    ROW="*"
-    ROW+="*"
-    echo $ROW
-done
+echo "$ROW"
+ROW="$ROW *"
+let COUNTER=COUNTER+1
+done 
+
