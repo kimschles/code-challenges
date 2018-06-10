@@ -10,7 +10,7 @@ Write a function that accepts a number and prints to the console a triangle that
 
 ### Output
 
-````
+```
 *
 **
 ***
@@ -18,4 +18,4 @@ Write a function that accepts a number and prints to the console a triangle that
 *****
 ******
 ```
-````
+
